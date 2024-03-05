@@ -1,5 +1,7 @@
 /** @format */
-
+*::-webkit-scrollbar {
+	display: none;
+}
 :root {
 	--color-primary: #6741d9;
 	--color-primary-light: #7950f2;
@@ -258,7 +260,7 @@ body {
 }
 
 .details img {
-	width: 33%;
+	width: 50%;
 }
 
 .details-overview {
